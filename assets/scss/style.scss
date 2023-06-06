@@ -18,7 +18,7 @@
 
 //mobile first
 body {
-    background-color: #191919;
+    background-color: rgb(30, 30, 30);
     color: white;
 
     #banner {
@@ -59,7 +59,7 @@ body {
     .menuMobile {
         z-index: 1;
         width: 100%;
-        background-color: #191919;
+        background-color: rgb(30, 30, 30);
         position: fixed;
         bottom: 5rem;
         display: none;
@@ -115,7 +115,7 @@ main {
 
         .backgroundContent {
             background: rgb(162, 23, 142);
-            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(25, 25, 25, 1) 100%);
+            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(30, 30, 30, 1) 100%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -193,7 +193,7 @@ main {
 
         .backgroundContent {
             background: rgb(162, 23, 142);
-            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(25, 25, 25, 1) 100%);
+            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(30, 30, 30, 1) 100%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -312,7 +312,7 @@ main {
             margin-top: 1rem;
             .backgroundContent {
                 background: rgb(162, 23, 142);
-                background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(25, 25, 25, 1) 100%);
+                background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(30, 30, 30, 1) 100%);
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -385,7 +385,7 @@ main {
     #logiciels {
         .backgroundContent {
             background: rgb(162, 23, 142);
-            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(25, 25, 25, 1) 100%);
+            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(30, 30, 30, 1) 100%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -445,7 +445,7 @@ main {
 
         .backgroundContent {
             background: rgb(162, 23, 142);
-            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(25, 25, 25, 1) 100%);
+            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(30, 30, 30, 1) 100%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -488,7 +488,7 @@ main {
 
         .backgroundContent {
             background: rgb(162, 23, 142);
-            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(25, 25, 25, 1) 100%);
+            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(30, 30, 30, 1) 100%);
             display: flex;
             justify-content: center;
             align-items: center;
