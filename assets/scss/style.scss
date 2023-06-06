@@ -6,7 +6,7 @@
 @font-face {
     font-family: "nova";
     src: url(../font/NovaSquare-Regular.ttf);
-    
+
 }
 
 * {
@@ -105,17 +105,31 @@ body {
 //Fin Menu
 main {
     padding: 1rem;
-    .spaceContent{
+
+    .spaceContent {
         margin: 2rem 0 5rem 0;
     }
+
     //Presentation
     #resume {
-        
-        h2 {
-            font-size: 18px;
-            font-family: 'press';
-            margin-top: 1rem;
+
+        .backgroundContent {
+            background: rgb(162, 23, 142);
+            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(25, 25, 25, 1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
             margin-bottom: 2rem;
+            margin-top: 2rem;
+
+            h2 {
+                font-size: 18px;
+                width: 100%;
+                font-family: 'press';
+                text-align: center;
+
+            }
         }
 
         #my {
@@ -177,11 +191,21 @@ main {
     #competence {
         margin-top: 1rem;
 
-        h2 {
-            font-family: 'press';
-            font-size: 18px;
-            margin-top: 1rem;
+        .backgroundContent {
+            background: rgb(162, 23, 142);
+            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(25, 25, 25, 1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
             margin-bottom: 2rem;
+            margin-top: 2rem;
+
+            h2 {
+                font-family: 'press';
+                font-size: 18px;
+                text-align: center;
+            }
         }
 
         #notation {
@@ -286,8 +310,24 @@ main {
         //notation
         #mySkill {
             margin-top: 1rem;
-
+            .backgroundContent {
+                background: rgb(162, 23, 142);
+                background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(25, 25, 25, 1) 100%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 70px;
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+    
+                h2 {
+                    font-family: 'press';
+                    font-size: 18px;
+                    text-align: center;
+                }
+            }
             #mySkillNotation {
+                
                 .category {
                     h3 {
                         font-family: 'nova';
@@ -343,11 +383,21 @@ main {
     //Fin Formation
 
     #logiciels {
-        h2 {
-            font-family: 'press';
-            font-size: 18px;
-            margin-top: 1rem;
+        .backgroundContent {
+            background: rgb(162, 23, 142);
+            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(25, 25, 25, 1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
             margin-bottom: 2rem;
+            margin-top: 2rem;
+
+            h2 {
+                font-family: 'press';
+                font-size: 18px;
+                text-align: center;
+            }
         }
 
         #logicielContent {
@@ -391,13 +441,23 @@ main {
     #projetcs {
         display: flex;
         flex-direction: column;
-        
-        
-        h2 {
-            font-size: 18px;
-            font-family: 'press';
-            margin-top: 1rem;
+
+
+        .backgroundContent {
+            background: rgb(162, 23, 142);
+            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(25, 25, 25, 1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
             margin-bottom: 2rem;
+            margin-top: 2rem;
+
+            h2 {
+                font-family: 'press';
+                font-size: 18px;
+                text-align: center;
+            }
         }
 
         #link {
@@ -426,11 +486,21 @@ main {
     #contacts {
         margin-top: 1rem;
 
-        h2 {
-            font-family: 'press';
-            font-size: 18px;
-            margin-top: 1rem;
+        .backgroundContent {
+            background: rgb(162, 23, 142);
+            background: radial-gradient(circle, rgba(162, 23, 142, 1) 9%, rgba(66, 23, 95, 1) 50%, rgba(25, 25, 25, 1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
             margin-bottom: 2rem;
+            margin-top: 2rem;
+
+            h2 {
+                font-family: 'press';
+                font-size: 18px;
+                text-align: center;
+            }
         }
 
         p {
@@ -443,6 +513,7 @@ main {
             display: flex;
             flex-direction: column;
             align-items: center;
+
             .contact {
                 display: flex;
                 flex-direction: column;
@@ -530,7 +601,6 @@ main {
                 h2 {
                     font-size: 18px;
                     font-family: 'press';
-                    margin-top: 1rem;
                 }
 
                 #linkPerso {
@@ -623,7 +693,7 @@ main {
     body {
         display: flex;
         flex-direction: column;
-      
+
         #banner {
             height: 300px;
             background-position: 50% 80%;
@@ -706,6 +776,7 @@ main {
             justify-content: center;
             align-items: center;
             margin: auto;
+
             #resume {
 
                 #my {
@@ -742,7 +813,7 @@ main {
                 h2 {
                     font-size: 18px;
                     font-family: 'press';
-                    margin-top: 1rem;
+                   
                 }
 
                 #linkPerso {
@@ -904,11 +975,12 @@ main {
             }
 
             #projetcs {
-                
+
                 #link {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+
                     a {
                         width: 55%;
                         padding: 2rem;
