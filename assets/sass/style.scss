@@ -21,10 +21,10 @@ html {
     body {
     
 
-        h1,h2,h3,h4,a{
+        h1,h2,h3,h4{
             font-family: 'roundedDemo';
         }
-        p,li{
+        p,li,a{
             font-family: 'nova';
         }
         @import 'contact';
