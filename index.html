@@ -1,478 +1,263 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr ">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.min.css">
     <title>Mroz Baptiste</title>
+    <link rel="stylesheet" href="assets/css/style.min.css">
 </head>
 
 <body>
     <div id="banner">
-        <p><strong>Mroz Baptiste</strong></p>
-        <h1>Développeur web et web mobile</h1>
-        
-    </div>
-
-    <!--Menu-->
-    <div id="burger">
-        <img src="assets/img/menutest.png" alt="Menu">
-    </div>
-
-    <nav class="menuComputer menuMobile">
-
-        <a class="buttonNav" id="profDroid" href="#banner">
-
-            <img id="imgProf" class="droid  test" src="assets/img/icone/doid.png" alt="droid">
-            <p>Profils</p>
-        </a>
-
-        <a class="buttonNav" id="compDroid" href="#competence">
-            <img id="imgComp" class="noDroid test" src="assets/img/icone/doid.png" alt="droid">
-            <p>Compétences</p>
-        </a>
-        <a class="buttonNav" href="#logiciels">
-            <img class="noDroid test" src="assets/img/icone/doid.png" alt="droid">
-            <p>Logiciels</p>
-        </a>
-
-        <a class="buttonNav" href="#projetcs">
-            <img class="noDroid test" src="assets/img/icone/doid.png" alt="droid">
-            <p>Projets</p>
-        </a>
-
-        <a class="buttonNav" href="#contacts">
-            <img class="noDroid test" src="assets/img/icone/doid.png" alt="droid">
-            <p>Contact</p>
-        </a>
-        <img id="close" src="assets/img/icone/211651_close_round_icon.png" alt="">
-
-    </nav>
-
-    <!--Fin Menu-->
-
-    <main>
-        <div id="resume" class="spaceContent">
-            <div class="backgroundContent">
+        <div id="menuRC">
+            <div class="linkPage"><a href="">Réalisation</a></div>
+            <div class="linkPage"><a href="assets/page/Contact.html">Contact</a></div>
+        </div>
+        <div id="presentation">
+            <h1>Développeur web et web mobile</h1>
+            <div id="abouts">
                 <h2>Présentation</h2>
-            </div>
-            <div id="my">
-                <img src="assets/img/avatar.png" alt="Avatar">
-                <div id="info">
-                    <p>Je m'appelle <span class="textColor">Mroz Baptiste j'ai 29 ans</span>, je suis passionné par le numérique et les nouvelles technologies.
-                        au court de mes différentes formations j'ai pu augmenter mes compétences dans le domaine de l'informatique, 
-                        que se soit pour le hardware ou le software ainsi que le coté réseaux j'ai une bonne capacité d'adaptation. </p>
-    
-                    <p>Je vient de valider mon titre Professionnel d’Etat « <span class="textColor">Développeur Web et Web Mobile » (RNCP 31114, Bac+2).</span> Je souhaite sois intégrer une entreprise ou poursuivre une formation au sein du centre de formation la Manu école du numérique
-                        pour le "Titre professionnel d’Etat de « <span class="textColor">Concepteur Développeur d’Applications » (RNCP 31678, Niveau 6, Bac+3)".</span></p>
+                <p>Je s'appelle groot</p>
+                <div id="imgAbout">
+                    <img src="assets/img/helloSticker.png" alt="emoji Baptiste Mroz">
+                    <div id="about">
+                        <p>
+                            Je m'appelle Baptiste et je suis un passionné inconditionnel des nouvelles technologies.
+                        </p>
+                        <p>
+                            Depuis mon plus jeune âge, j'ai été captivé par le monde numérique et les avancées
+                            technologiques qui le façonnent.
+                        </p>
+                        <p>
+                            Ma palette de compétences couvre un large éventail de domaines technologiques. Je suis
+                            capable
+                            de
+                            diagnostiquer et de résoudre des problèmes informatiques complexes, d'administrer des
+                            systèmes
+                            et des réseaux de manière efficace, et de concevoir des solutions web innovantes.
+                        </p>
+                    </div>
                 </div>
             </div>
-            
-            <div id="linkPerso">
-
-                <a href="https://www.linkedin.com/in/baptiste-mroz-628807256/" target="_blank" class="presoContent">
-                    <img src="assets/img/icone/linkdin.png" alt="">
-                    <p>linkdin
-                    </p>
-                </a>
-                <a href="https://github.com/MrozBaptiste" target="_blank" class="presoContent">
-                    <img src="assets/img/icone/github2.png" alt="">
-                    <p>Git Hub
-                    </p>
-                </a>
-                <a href="assets/fichier/CvBaptisteMroz.pdf" target="_blank" class="presoContent">
-                    <img src="assets/img/icone/pdf.png" alt="">
-                    <p>mon CV</p>
-                </a>
+        </div>
+        <div id="scroll">
+            <a href="#formationBlock"><img src="assets/img/scroll.png" alt="Logo scroll"></a>
+        </div>
+        <div id="atout">
+            <div id="slidTrack">
+                <p class="atout">Curieux <span>-</span>Créative<span>-</span>Autodidacte<span>-</span>Esprit d'équipe
+                </p>
             </div>
         </div>
 
-        <div id=competence class="spaceContent">
-            <div class="backgroundContent">
+        <div id="extrLink">
+            <div class="extrLinks"><a href="">LinkedIn</a></div>
+            <div class="extrLinks"><a href="">Mon Cv</a></div>
+        </div>
+    </div>
+    <div id="transition"></div>
+    <main>
+        <div id="navMenu">
+            <div id="formation" class="openButton navButton">
+                <p>Formations</p>
+            </div>
+            <div id="skill" class="closedButton navButton">
+                <p>Compétences</p>
+            </div>
+        </div>
+        <!--Formation block -->
+        <div id="formationBlock" class="blockDisplay">
             <h2>Formation</h2>
-            </div>   
-            
-            <div id="notation">
-                <img src="assets/img/icone/certif.png" alt="">
-                <strong>
-                    <p>= Certification obtenu</p>
-                </strong>
-            </div>
-            <!--mobile-->
-            <div id="formationMobile">
-                <div class="skill active certif" id="dwwm">
-                    <h3>Devellopeur web et web mobile</h3>
-                    <p><strong>Date: 2023</strong></p>
-                    <ul>
-                        <li>Maquetter une application.</li>
-                        <li>Réaliser une interface utilisateur web statique et adaptable.</li>
-                        <li>Développer une interface utilisateur web dynamique.</li>
-                        <li>Réaliser une interface utilisateur avec une solution de gestion de contenu ou e-commerce.
-                        </li>
-                        <li>Créer une base de données.</li>
-                        <li>Développer les composants d'accès aux données.</li>
-                        <li>
-                            Développer la partie back-end d'une application web ou web mobile.
-                        </li>
-                        <li>Elaborer et mettre en œuvre des composants dans une application de gestion de contenu ou
-                            e-commerce.
-                        </li>
-                    </ul>
+            <div id="navFormation">
+                <div id="dwwm" class="formStyle nameFormationOpen">
+                    <p>DWWM</p>
                 </div>
-
-                <div class="skill" id="tssr">
-                    <h3>Technicien superieur systeme et resseau</h3>
-                    <p><strong>Date: 2022</strong></p>
-                    <ul>
-                        <li>Maintenir et exploiter le réseau local et la téléphonie.</li>
-                        <li>Sécuriser les accès à internet.</li>
-                        <li>Maintenir et exploiter un environnement virtualisé</li>
-                        <li>Maintenir et exploiter un domaine ActiveDirectory et les serveurs Windows.</li>
-                        <li>Maintenir et exploiter un serveur Linux.</li>
-
-                    </ul>
+                <div id="tssr" class="formStyle nameFormationClosed">
+                    <p>TSSR</p>
                 </div>
-
-                <div class="skill certif" id="tai">
-                    <h3>Technicien d'assistance informatique</h3>
-                    <p><strong>Date: 2021</strong></p>
-                    <ul>
-                        <li>Mettre en service un équipement numérique.</li>
-                        <li>Assister les utilisateurs sur leurs équipements numériques</li>
-                        <li>Gérer les incidents et les problèmes.</li>
-                        <li>Assister à l'utilisation des ressources collaboratives.</li>
-                    </ul>
-                </div>
-                <div class="skill certif" id="tfo">
-                    <h3>Technicien fibre optique</h3>
-                    <p><strong>Date: 2019</strong></p>
-                    <ul>
-                        <li>Délimitation et sécurisation de la zone de travail</li>
-                        <li>Préparation du câble, boitiers, panneaux et cassettes</li>
-                        <li>Soudure des fibres avec une soudeuse en respectant les conventions</li>
-                        <li>Réaliser le rapport d'intervention</li>
-                        <li>Recueil des contraintes du client</li>
-                        <li>Réalisation du raccordement client</li>
-                        <li>Tests de la liaisson fibre optique</li>
-                    </ul>
-                </div>
-                <div id="swipe">
-                    <img id="swipeIcone" src="assets/img/icone/swipe.png" alt="swipeIcone">
+                <div id="tai" class="formStyle nameFormationClosed">
+                    <p>TAI</p>
                 </div>
             </div>
-            <!--Fin mobile-->
+            <!--dwwmBlock-->
+            <div id="dwwmBlock" class="blockDisplayFormation formBlockStyle">
+                <h3>Développeur web et web mobile</h3>
+                <div class="aboutForm">
+                    <div class="formCcd">
+                        <img src="assets/img/imgDwwm.png" alt="Ilustration développeur web">
+                        <div class="centerCertif">
+                            <p>Centre de formation : la manu</p>
+                            <div class="date">
+                                <p>Certification : Obtenu</p>
+                                <p>Date : 2023</p>
+                            </div>
+                        </div>
 
-            <!--Computer-->
-            <div id="formationComputer">
-                <nav id="menu">
-                    <button class="formationMenu formActive" id="tfobutton">TFO</button>
-                    <button class="formationMenu" id="taibutton">TAI</button>
-                    <button class="formationMenu" id="tssrbutton">TSSSR</button>
-                    <button class="formationMenu" id="dwwmbutton">DWWM</button>
-                </nav>
+                    </div>
+                    <div>
+                        <div class="listForm">
+                            <h4>Développement Front-end</h4>
+                            <ul>
+                                <li>Apprentissage des langages front-end (HTML, CSS, JS)</li>
+                                <li>Maitrise du développement responsive d’un site</li>
+                                <li>Conception centrée utilisateur et UX Design</li>
+                                <li>Création, personnalisation et administration d’un site WordPress</li>
+                                <li>Publication d’un site en ligne sur le serveur web</li>
+                            </ul>
+                        </div>
+                        <div class="listForm">
+                            <h4>Développement back-end</h4>
+                            <ul>
+                                <li>Apprentissage du langage PHP</li>
+                                <li>Conception et mise en œuvre d’une base de données (SQL, Merise)</li>
+                                <li>Développement de modules pour un site internet avec WordPress</li>
+                            </ul>
+                        </div>
+                    </div>
 
-                <div class="formation win active " id="tfoFormation">
-                    <h3>Technicien fibre optique</h3>
-                    <p><strong>Date: 2019</strong></p>
-                    <ul>
-                        <li>Délimitation et sécirisation de la zone de travail</li>
-                        <li>Préparation du câble, boitiers, panneaux et cassettes</li>
-                        <li>Soudure des fibre avec une soudeuse en respectant les conventions</li>
-                        <li>Réaliser le rapport d'intervention</li>
-                        <li>Recueil des contraintes du client</li>
-                        <li>Réalisation du raccordement client</li>
-                        <li>Tests de la liaisson fibre optique</li>
-                    </ul>
                 </div>
-
-                <div class="formation win noActive" id="taiFormation">
-                    <h3>Technicien d'assistance informatique</h3>
-                    <p><strong>Date: 2021</strong></p>
-                    <ul>
-                        <li>Mettre en service un équipement numérique.</li>
-                        <li>Assister les utilisateurs sur leurs équipements numériques</li>
-                        <li>Gérer les incidents et les problèmes.</li>
-                        <li>Assister à l'utilisation des ressources collaboratives.</li>
-                    </ul>
-                </div>
-
-                <div class="formation noActive" id="tssrFormation">
-                    <h3>Technicien superieur systeme et resseau</h3>
-                    <p><strong>Date: 2022</strong></p>
-                    <ul>
-                        <li>Maintenir et exploiter le réseau local et la téléphonie.</li>
-                        <li>Sécuriser les accès à internet.</li>
-                        <li>Maintenir et exploiter un environnement virtualisé</li>
-                        <li>Maintenir et exploiter un domaine ActiveDirectory et les serveurs Windows.</li>
-                        <li>Maintenir et exploiter un serveur Linux.</li>
-
-                    </ul>
-                </div>
-
-                <div class="formation win noActive" id="dwwmFormation">
-                    <h3>Dévelopeur web et web mobile</h3>
-                    <p><strong>Date: 2023</strong></p>
-                    <ul>
-                        <li>Maquetter une application.</li>
-                        <li>Réaliser une interface utilisateur web statique et adaptable.</li>
-                        <li>Développer une interface utilisateur web dynamique.</li>
-                        <li>Réaliser une interface utilisateur avec une solution de gestion de contenu ou e-commerce.
-                        </li>
-                        <li>Créer une base de données.</li>
-                        <li>Développer les composants d'accès aux données.</li>
-                        <li>
-                            Développer la partie back-end d'une application web ou web mobile.
-                        </li>
-                        <li>Elaborer et mettre en œuvre des composants dans une application de gestion de contenu ou
-                            e-commerce.
-                        </li>
-                    </ul>
-                </div>
-
             </div>
-            <!--Fin Computer-->
-            <div id="mySkill">
-                <div class="backgroundContent">
-                <h2>Compétences</h2>
+            <!--tssrBlock-->
+            <div id="tssrBlock" class="blockDisplayNoneFormation formBlockStyle">
+                <h3>Technicien supérieur systèmes et réseau</h3>
+                <div class="aboutForm">
+
+
+                    <div class="formCcd">
+                        <img src="assets/img/imgTssr.png" alt="Ilustration développeur web">
+                        <div class="centerCertif">
+                            <p>Centre de formation : Greta</p>
+                            <div class="date">
+                                <p>Certification : Non Obtenu</p>
+                                <p>Date : 2022</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="listForm">
+                            <h4>Assister les utilisateurs dans l’utilisation de leur équipement numérique</h4>
+                            <ul>
+                                <li>Mettre en service un équipement numérique</li>
+                                <li>Assister les utilisateurs sur leurs équipements numériques</li>
+                                <li>Gérer les incidents et les problèmes</li>
+                                <li>Assister à l’utilisation des ressources collaboratives</li>
+                            </ul>
+                        </div>
+                        <div class="listForm">
+                            <h4>Maintenir, exploiter et sécuriser une infrastructure centralisée</h4>
+                            <ul>
+                                <li>Maintenir et exploiter le réseau local et la téléphonie</li>
+                                <li>Sécuriser les accès à internet</li>
+                                <li>Maintenir et exploiter un environnement virtualisé</li>
+                                <li>Maintenir et exploiter un domaine ActiveDirectory et les serveurs Windows.</li>
+                                <li>Maintenir et exploiter un serveur Linux</li>
+                            </ul>
+                        </div>
+                        <div class="listForm">
+                            <h4>Maintenir et exploiter une infrastructure distribuée et contribuer à sa sécurisation
+                            </h4>
+                            <ul>
+                                <li>Configurer les services de déploiement et de terminaux clients légers</li>
+                                <li>Automatiser les tâches à l'aide de scripts</li>
+                                <li>Maintenir et sécuriser les accès réseaux distants</li>
+                                <li>Superviser l'infrastructure</li>
+                                <li>Intervenir dans un environnement de Cloud Computing</li>
+                                <li>Assurer sa veille technologique</li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
-                <div id="mySkillNotation">
-                    <div class="category">
-                        <h3>Dévelopement web</h3>
-                        <div class="notation">
-                            <p>Maquettage</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point active">3</span>
-                                <span class="point">4</span>
-                                <span class="point">5</span>
-                            </div>
-                        </div>
-                        <div class="notation">
-                            <p>Html</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point active">3</span>
-                                <span class="point active">4</span>
-                                <span class="point active">5</span>
-                            </div>
-                        </div>
-
-                        <div class="notation">
-                            <p>Css/Scss</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point active">3</span>
-                                <span class="point active">4</span>
-                                <span class="point">5</span>
-                            </div>
-                        </div>
-
-                        <div class="notation">
-                            <p>JavaScript</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point active ">3</span>
-                                <span class="point">4</span>
-                                <span class="point">5</span>
-                            </div>
-                        </div>
-
-                        <div class="notation">
-                            <p>Php</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point active">3</span>
-                                <span class="point">4</span>
-                                <span class="point">5</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category">
-                        <h3>Resseau/serveur</h3>
-                        <div class="notation">
-                            <p>Windows</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point active">3</span>
-                                <span class="point active">4</span>
-                                <span class="point">5</span>
-                            </div>
-                        </div>
-
-                        <div class="notation">
-                            <p>Linux</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point">3</span>
-                                <span class="point">4</span>
-                                <span class="point">5</span>
-                            </div>
-                        </div>
-
-                        <div class="notation">
-                            <p>Routage</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point active">3</span>
-                                <span class="point">4</span>
-                                <span class="point">5</span>
-                            </div>
-                        </div>
-
-                        <div class="notation">
-                            <p>GLPI</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point active">3</span>
-                                <span class="point">4</span>
-                                <span class="point">5</span>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="category">
-                        <h3>Informatique / Os</h3>
-                        <div class="notation">
-                            <p>Montage</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point active">3</span>
-                                <span class="point active">4</span>
-                                <span class="point active">5</span>
-                            </div>
-                        </div>
-
-                        <div class="notation">
-                            <p>Config.</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point active">3</span>
-                                <span class="point  active">4</span>
-                                <span class="point">5</span>
-                            </div>
-                        </div>
-
-                        <div class="notation">
-                            <p>Windows</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point active">3</span>
-                                <span class="point active ">4</span>
-                                <span class="point active">5</span>
-                            </div>
-                        </div>
-
-                        <div class="notation">
-                            <p>Linux</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point active">3</span>
-                                <span class="point">4</span>
-                                <span class="point">5</span>
-                            </div>
-                        </div>
-
-                        <div class="notation">
-                            <p>Mac Os</p>
-                            <div class="bareme">
-                                <span class="point active">1</span>
-                                <span class="point active">2</span>
-                                <span class="point">3</span>
-                                <span class="point">4</span>
-                                <span class="point">5</span>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
             </div>
-        </div>
+            <!--taiBlock-->
+            <div id="taiBlock" class="blockDisplayNoneFormation formBlockStyle">
+                <h3>Technicien d'assistance informatiques</h3>
+                <div class="aboutForm">
 
-        <div id="logiciels" class="spaceContent">
-            <div class="backgroundContent">
-              <h2>Logiciels</h2>  
-            </div>
-            
-            <div id="logicielContent">
-                <div class="logiciel">
-                    <img src="assets/img/lunacy.png" alt="Logo Lunacy">
-                    <div class="titleResume">
-                        <h3>Lunacy</h3>
-                        <p>Outil de Maquetage</p>
-                    </div>
-                </div>
-                <div class="logiciel">
-                    <img src="assets/img/visual.png" alt="Logo Visual studio code">
-                    <div class="titleResume">
-                        <h3>Visual studio code</h3>
-                        <p>Outil de codage</p>
-                    </div>
-                </div>
 
-                <div class="logiciel">
-                    <img src="assets/img/icone/notions.png" alt="Logo Microsoft office">
-                    <div class="titleResume">
-                        <h3>Notion</h3>
-                        <p>Outil de gestion de projets</p>
+                    <div class="formCcd">
+                        <img src="assets/img/imgTai.png" alt="Ilustration développeur web">
+                        <div class="centerCertif">
+                            <p>Centre de formation : Greta</p>
+                            <div class="date">
+                                <p>Certification : Obtenu</p>
+                                <p>Date : 2021</p>
+                            </div>
+                        </div>
+
                     </div>
+                    <div>
+                        <div class="listForm">
+                            <h4>Assister ou dépanner les utilisateurs</h4>
+                            <ul>
+                                <li>Traiter un incident dans un centre de services et assurer le suivi du parc.</li>
+                                <li>Assister à l’utilisation des ressources collaboratives et bureautiques.</li>
+                                <li>Diagnostiquer et résoudre un dysfonctionnement numérique.</li>
+                            </ul>
+                        </div>
+                        <div class="listForm">
+                            <h4>Mettre en service des équipements numériques</h4>
+                            <ul>
+                                <li>Installer, déployer et personnaliser un poste utilisateur</li>
+                                <li>Intervenir sur les composants matériels d’un ordinateur fixe ou mobile.</li>
+                                <li>Contribuer à la sécurité d’un équipement numérique et de ses données.</li>
+                            </ul>
+                        </div>
+                        <div class="listForm">
+                            <h4>Intervenir sur les éléments de l’infrastructure</h4>
+                            <ul>
+                                <li>Installer et configurer les équipements et services réseaux.</li>
+                                <li>Intervenir sur un réseau sécurisé, cybersécurité.</li>
+                                <li>Intervenir sur un annuaire Active Directory.</li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <div id="projetcs" class="spaceContent">
-            <div class="backgroundContent">
-                <h2>Mes Projets</h2> 
+        <!--conpetence block -->
+        <div id="conpetenceBlock" class="blockDisplayNone">
+            <h2>Compétences</h2>
+            <h3>Développement web</h3>
+            <div class="imgComeptence">
+                <img src="assets/img/competence/html.png" alt="Logo HTML">
+                <img src="assets/img/competence/css.png" alt="Logo CSS">
+                <img src="assets/img/competence/js.png" alt="Logo JS">
+                <img src="assets/img/competence/php.png" alt="Logo PHP">
+                <img src="assets/img/competence/mysql.png" alt="Logo Mysql">
             </div>
-           
-            <div id="link">
-                <a href="">Voir mes projets</a>
+            <h3>Logiciels</h3>
+            <div class="imgComeptence">
+                <img src="assets/img/competence/visual.png" alt="Logo Visual studio code">
+                <img src="assets/img/competence/LUNACY.png" alt="Logo Lunacy">
+                <img src="assets/img/competence/Microsoft.png" alt="Logo Microsoft Office">
+                <img src="assets/img/competence/notion.png" alt="Logo Notion">
             </div>
-        </div>
-
-        <div id="contacts" class="spaceContent">
-            <div class="backgroundContent">
-               <h2>Contacts</h2> 
+            <h3>Systèmes d'exploitation</h3>
+            <div class="imgComeptence">
+                <img src="assets/img/competence/windows.png" alt="Logo Windows">
+                <img src="assets/img/competence/linux.png" alt="Logo Linux">
+                <img src="assets/img/competence/android.png" alt="Logo Android">
+                <img src="assets/img/competence/macOs.png" alt="Logo Mac Os">
             </div>
-            
-            <p>Le premier contact se fait par mail pour planifier un rendez-vous téléphonique si besoin. </p>
-            <div id="contactsFlex">
-                <div class="contact">
-                    <div class="title"><img src="assets/img/icone/1181190_email_gmail_google_mail_icon.png"
-                            alt="Logo Email">
-                        <h3>Envoyer un email</h3>
-                    </div>
-                    <a href="mailto:baptiste.mroz@gmail.com">Mon Email</a>
-                </div>
-                <div class="contact">
-
-                    <div class="title">
-                        <img src="assets/img/icone/4781819_direction_gps_location_map_maps_icon.png"
-                            alt="Logo Possition">
-                        <h3>Localisation</h3>
-                    </div>
-                    <p>Mobile dans un rayon de 100km (alentour de La Fére 02800) /Distanciel </p>
-                </div>
-            </div>
-
         </div>
     </main>
+    <script src="assets/js/navMenu.js"></script>
+    <script src="assets/js/navFormation.js"></script>
 </body>
-<script src="assets/js/menu.js"></script>
-<script src="assets/js/carrousel.js"></script>
-<script src="assets/js/table.js"></script>
+<footer>
+    <div id="contactFooter">
+        <div class="linkContact"><img src="assets/img/contact/gmail.png" alt=""><a
+                href="mailto:baptiste.mroz@gmail.com"> Email</a></div>
+        <div class="linkContact"><img src="assets/img/contact/linkdin.png" alt=""><a href="">LinkdIn</a>
+        </div>
+
+    </div>
+    <p> © Disagné et réalisé par Baptiste Mroz </p>
+</footer>
 
 </html>
